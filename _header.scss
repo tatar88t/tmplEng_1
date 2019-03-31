@@ -1,0 +1,35 @@
+body{
+	background: #282828;
+}
+.header{
+	max-width: 1280px;
+	background: linear-gradient(to top, #e1e1e1,  #f9f9f9);
+	margin: 0 auto;
+
+}
+.header__content{
+	max-width: 1024px;
+	height: 118px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+	
+	
+	.header__logo-wrapper{
+	margin-top: 30px;
+	margin-left: 32px;
+	
+	}
+	h1{
+	margin: 0;
+	font-family: "Lobster";
+	color: #676666;
+	font-size: 50px;
+	
+}
+	span{
+		color: #ff7700;
+	}
+}
+

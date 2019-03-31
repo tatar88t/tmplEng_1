@@ -1,0 +1,40 @@
+.header__nav{
+	width:470px;
+	.a-wrapper{
+		display: inline-block;
+		width: 109px;
+		height: 114px;
+		margin-left: -5px;
+		
+		position: relative;
+		/*border: 1px solid black;*/
+		text-align: center;
+	&:hover{
+		border-bottom: 4px solid #ff7d00;
+		border-left: 1px solid #dedede;
+		border-right: 1px solid #dedede;
+		background: linear-gradient(to top, #cbc3c3,  #f9f9f9);
+	};
+	a{
+		line-height: 158px;
+		text-decoration: none;
+		color: #545454;
+		font-family: helvetica;
+
+
+	}
+
+	}
+}
+
+	@each $name in 'home' 'gallery' 'logout' 'members'{
+		.header__nav-item-#{$name}:before{
+		
+		content: url('img/#{$name}-icon.png');
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		bottom: 25px;
+		left: 1px;
+	}
+}

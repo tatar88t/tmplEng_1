@@ -1,0 +1,19 @@
+- var picNum = "1";
+- var picAmount = 13;
+
+.gallery
+	.gallery__content
+		while picNum < picAmount + 1
+			.gallery__item
+				a(href="#")
+			
+					img(src="img/pic"+ picNum++ + ".png" alt='pic')
+
+				p Lorem ipsup is simply
+				.gallery__item-social
+					p Share
+			
+					- for (var socialNum=1; socialNum<5; socialNum++)
+						img(src="img/social-"+ socialNum + ".png")
+					
+

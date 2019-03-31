@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+body {
+  background: #282828;
+}
+
+.header {
+  max-width: 1280px;
+  background: linear-gradient(to top, #e1e1e1, #f9f9f9);
+  margin: 0 auto;
+}
+
+.header__content {
+  max-width: 1024px;
+  height: 118px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__content .header__logo-wrapper {
+  margin-top: 30px;
+  margin-left: 32px;
+}
+.header__content h1 {
+  margin: 0;
+  font-family: "Lobster";
+  color: #676666;
+  font-size: 50px;
+}
+.header__content span {
+  color: #ff7700;
+}
+
+.header__nav {
+  width: 470px;
+}
+.header__nav .a-wrapper {
+  display: inline-block;
+  width: 109px;
+  height: 114px;
+  margin-left: -5px;
+  position: relative;
+  /*border: 1px solid black;*/
+  text-align: center;
+}
+.header__nav .a-wrapper:hover {
+  border-bottom: 4px solid #ff7d00;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  background: linear-gradient(to top, #cbc3c3, #f9f9f9);
+}
+.header__nav .a-wrapper a {
+  line-height: 158px;
+  text-decoration: none;
+  color: #545454;
+  font-family: helvetica;
+}
+
+.header__nav-item-home:before {
+  content: url("img/home-icon.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 25px;
+  left: 1px;
+}
+
+.header__nav-item-gallery:before {
+  content: url("img/gallery-icon.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 25px;
+  left: 1px;
+}
+
+.header__nav-item-logout:before {
+  content: url("img/logout-icon.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 25px;
+  left: 1px;
+}
+
+.header__nav-item-members:before {
+  content: url("img/members-icon.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 25px;
+  left: 1px;
+}
+
+.search {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.search__wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  /*margin-bottom: 74px;*/
+}
+
+.search__form {
+  margin-left: 178px;
+}
+.search__form h1 {
+  margin: 0;
+  font-family: helvetica;
+  color: #565555;
+  font-size: 24px;
+  padding-top: 42px;
+  margin-bottom: 25px;
+}
+
+.search__input {
+  min-width: 450px;
+  height: 46px;
+  border: 1px solid #cacaca;
+  border-radius: 6px;
+  box-shadow: inset 0 3px 6px 0 #e2dada;
+  margin-bottom: 74px;
+  outline: none;
+  color: #c1bfbf;
+  font-size: 16px;
+}
+.search__input:focus {
+  border: 2px solid #cacaca;
+  border-radius: 6px;
+  box-shadow: inset 0 4px 7px 0 #e2dada;
+}
+
+.search__browse {
+  font-size: 18px;
+  padding: 5px 16px 7px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  background: #c1bfbf;
+  z-index: 2;
+  position: relative;
+  right: 103px;
+  cursor: pointer;
+}
+.search__browse[value=Browse] {
+  font-family: helvetica;
+}
+
+.search__upload {
+  position: relative;
+  right: 90px;
+  top: 2px;
+  color: #fff;
+  font-family: helvetica;
+  font-size: 24px;
+  background: linear-gradient(to top, #ff6900, #ffa300);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 27px 9px 27px;
+  cursor: pointer;
+}
+
+.gallery {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.gallery__content {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.gallery__item {
+  display: inline-block;
+  border: 1px solid #d6d6d6;
+  padding: 7px;
+  margin-bottom: 29px;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-family: helvetica;
+  color: #9f9898;
+  box-shadow: inset 0 -5px 7px 0 #e2dada;
+  box-shadow: 0 0 10px 0px #d6d6d6, inset 0 -5px 7px 0 #e2dada;
+}
+.gallery__item p {
+  margin-left: 9px;
+  font-size: 14px;
+}
+.gallery__item img {
+  width: 200px;
+  height: 197px;
+}
+
+.gallery__item-social {
+  border-top: 1px solid #e0dfdf;
+}
+.gallery__item-social p {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 18px 0 50px;
+  vertical-align: text-top;
+  line-height: 9px;
+}
+.gallery__item-social img {
+  margin-left: 4px;
+  margin-top: 8px;
+  width: initial;
+  height: initial;
+}
+
+/*# sourceMappingURL=style.css.map */
